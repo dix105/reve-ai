@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reve AI - Free AI Image generator Online</title>
+    <meta name="description" content="Reve AI is a free online AI image generator that turns text prompts into artistic images with creative styles and clean visual quality.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Reve AI - Free AI Image generator Online">
+    <meta property="og:description" content="Reve AI is a free online AI image generator that turns text prompts into artistic images with creative styles and clean visual quality.">
+    <meta property="og:image" content="images/hero-showcase.jpg">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Reve AI - Free AI Image generator Online">
+    <meta property="twitter:description" content="Reve AI is a free online AI image generator that turns text prompts into artistic images with creative styles and clean visual quality.">
+    <meta property="twitter:image" content="images/hero-showcase.jpg">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">Reve Ai</div>
+        <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+        <nav>
+            <a href="#hero">Home</a>
+            <a href="#playground">Create</a>
+            <a href="#how-to-use">How it Works</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#faqs">FAQ</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-bg-image">
+            <img src="images/hero-showcase.jpg" alt="Surreal artistic dreamscape with floating islands">
+        </div>
+        <div class="hero-bg-animation">
+            <!-- Morphing Blobs Animation -->
+            <div class="morph-blob"></div>
+            <div class="morph-blob"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content container">
+            <h1 class="fade-in-up">Reve AI for Artistic Image Generation</h1>
+            <p class="fade-in-up delay-1">Create artistic images from text with Reve AI. Turn your ideas into creative visuals with clean details and balanced style in just seconds.</p>
+            <a href="#playground" class="btn btn-primary fade-in-up delay-2">Generate</a>
+        </div>
+    </section>
+
+    <!-- Playground Section (LOCKED) -->
+    <section id="playground">
+        <div class="container">
+            <div class="section-header">
+                <h2>Reve AI for Creative Image Generation</h2>
+                <p>Reve AI focuses on artistic image creation, generating stylized visuals from text prompts with balanced design and clean output.</p>
+            </div>
+
+            <!-- LOCKED STATE PLAYGROUND -->
+            <div class="playground-locked-card card-glass">
+                <div class="lock-icon-wrapper">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lock-icon"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                </div>
+                <h3>Effect Lab Locked</h3>
+                <p>The Reve AI tool is under development.</p>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 85%"></div>
+                </div>
+                <p class="progress-text">Development Progress: 85%</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-to-use">
+        <div class="container">
+            <div class="section-header">
+                <h2>How to Use Reve</h2>
+                <p>Simple steps to transform your ideas into art.</p>
+            </div>
+            <div class="steps-grid">
+                <!-- Step 1 -->
+                <div class="step-card card-lift">
+                    <div class="step-number">1</div>
+                    <h3>Write Your Idea</h3>
+                    <p>Type what you want to create in the text box. You can keep it short or add more details if you like.</p>
+                </div>
+                <!-- Step 2 -->
+                <div class="step-card card-lift">
+                    <div class="step-number">2</div>
+                    <h3>Generate the Image</h3>
+                    <p>Click the Generate button and the AI will turn your idea into an image in a few seconds.</p>
+                </div>
+                <!-- Step 3 -->
+                <div class="step-card card-lift">
+                    <div class="step-number">3</div>
+                    <h3>Download or Share</h3>
+                    <p>Like the result? Download your image or share it easily with others.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <h2>Gallery Showcase</h2>
+                <p>Explore what others have created with Reve AI.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="images/gallery-result-1.jpg" alt="Portrait of a woman made of starlight">
+                    <div class="gallery-overlay">
+                        <span>Cosmic Portrait</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-result-2.jpg" alt="Cyberpunk city street at night">
+                    <div class="gallery-overlay">
+                        <span>Neon Rain</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-result-3.jpg" alt="Magical forest with glowing mushrooms">
+                    <div class="gallery-overlay">
+                        <span>Magical Forest</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/gallery-result-4.jpg" alt="Abstract geometric composition">
+                    <div class="gallery-overlay">
+                        <span>Liquid Gold</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose Reve</h2>
+                <p>Hear from creators who use our tools daily.</p>
+            </div>
+            <div class="testimonials-grid">
+                <!-- Review 1 -->
+                <div class="testimonial-card card-glass">
+                    <p>"Reve is designed for artistic image creation, focusing on soft details and creative styles that make visuals feel unique and expressive."</p>
+                    <div class="testimonial-author">
+                        <img src="images/avatar-1.jpg" alt="Creative Focus" class="testimonial-avatar">
+                        <div>
+                            <h4>Creative Focus</h4>
+                            <span>Artistic Image Model</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 2 -->
+                <div class="testimonial-card card-glass">
+                    <p>"The model is easy to use and works directly from text prompts, making it simple for anyone to generate high-quality artistic images."</p>
+                    <div class="testimonial-author">
+                        <img src="images/avatar-2.jpg" alt="Simple to Use" class="testimonial-avatar">
+                        <div>
+                            <h4>Simple to Use</h4>
+                            <span>Text-to-Image Generation</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Review 3 -->
+                <div class="testimonial-card card-glass">
+                    <p>"Reve delivers clean and consistent image quality, making it suitable for illustrations, concepts, and visual ideas."</p>
+                    <div class="testimonial-author">
+                        <img src="images/avatar-3.jpg" alt="Reliable Output" class="testimonial-avatar">
+                        <div>
+                            <h4>Reliable Output</h4>
+                            <span>Consistent Image Quality</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faqs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked Questions</h2>
+                <p>Everything you need to know about Reve AI.</p>
+            </div>
+            <div class="faq-container">
+                <!-- Q1 -->
+                <div class="faq-item">
+                    <div class="faq-question">What is the Reve image generator?</div>
+                    <div class="faq-answer">
+                        <p>Reve is an AI image generation model made for artistic image creation. It turns text prompts or photos into creative, stylized images with a soft and expressive visual style.</p>
+                    </div>
+                </div>
+                <!-- Q2 -->
+                <div class="faq-item">
+                    <div class="faq-question">What type of images does Reve generate best?</div>
+                    <div class="faq-answer">
+                        <p>Reve works best for artistic, dream-like, and stylized images. It is ideal for illustrations, creative concepts, mood visuals, and expressive artwork rather than realistic photos.</p>
+                    </div>
+                </div>
+                <!-- Q3 -->
+                <div class="faq-item">
+                    <div class="faq-question">Can I generate images using text prompts?</div>
+                    <div class="faq-answer">
+                        <p>Yes. You can write a text prompt describing what you want, and the Reve model will generate an artistic image based on your description.</p>
+                    </div>
+                </div>
+                <!-- Q4 -->
+                <div class="faq-item">
+                    <div class="faq-question">Can I use my own photo with the Reve model?</div>
+                    <div class="faq-answer">
+                        <p>Yes. You can upload a photo and apply the Reve image style to it. The model transforms the photo into a creative and artistic version instead of a realistic edit.</p>
+                    </div>
+                </div>
+                <!-- Q5 -->
+                <div class="faq-item">
+                    <div class="faq-question">How long does image generation take?</div>
+                    <div class="faq-answer">
+                        <p>Image generation usually takes only a few seconds. The exact time may vary slightly depending on image size and system load.</p>
+                    </div>
+                </div>
+                <!-- Q6 -->
+                <div class="faq-item">
+                    <div class="faq-question">Is Reve suitable for realistic image generation?</div>
+                    <div class="faq-answer">
+                        <p>Reve is designed for artistic and creative visuals. If you need highly realistic or photo-accurate images, a different AI model may be more suitable.</p>
+                    </div>
+                </div>
+                <!-- Q7 -->
+                <div class="faq-item">
+                    <div class="faq-question">Are my prompts and images kept private?</div>
+                    <div class="faq-answer">
+                        <p>Yes. Your uploaded images and prompts are processed securely and are not shared with others. They are removed after a short period.</p>
+                    </div>
+                </div>
+                <!-- Q8 -->
+                <div class="faq-item">
+                    <div class="faq-question">What image formats does Reve support?</div>
+                    <div class="faq-answer">
+                        <p>Reve supports common image formats such as JPG, PNG, and WEBP for both uploads and downloads.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Reve Ai</h3>
+                    <p>Turn your ideas into creative visuals with clean details and balanced style in just seconds.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Product</h4>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#playground">Create</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#how-to-use">How to Use</a></li>
+                        <li><a href="#faqs">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#" data-modal-target="privacy-modal">Privacy Policy</a></li>
+                        <li><a href="#" data-modal-target="terms-modal">Terms of Service</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Reve Ai. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Privacy Modal -->
+    <div id="privacy-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" data-modal-close="privacy-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Privacy Policy</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+                <h4>1. Data Collection</h4>
+                <p>We collect only the minimum data necessary:</p>
+                <ul>
+                    <li>Images you upload for processing (temporarily stored)</li>
+                    <li>Basic usage analytics (non-personal)</li>
+                    <li>Browser type and device information</li>
+                </ul>
+                <h4>2. Image Processing</h4>
+                <p>Your uploaded images are:</p>
+                <ul>
+                    <li>Processed securely on our servers</li>
+                    <li>Automatically deleted within 24 hours</li>
+                    <li>Never shared with third parties</li>
+                    <li>Not used for AI training without consent</li>
+                </ul>
+                <h4>3. Data Security</h4>
+                <p>All data transmission is encrypted using SSL/TLS protocols.</p>
+                <h4>4. Cookies</h4>
+                <p>We use essential cookies only for site functionality.</p>
+                <h4>5. Your Rights</h4>
+                <p>You have the right to request deletion of any stored data.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Terms Modal -->
+    <div id="terms-modal" class="modal hidden">
+        <div class="modal-content">
+            <span class="close-modal" data-modal-close="terms-modal">&times;</span>
+            <div class="modal-body">
+                <h2>Terms of Service</h2>
+                <p><strong>Last Updated:</strong> 2024</p>
+                <h4>1. Acceptance of Terms</h4>
+                <p>By using this service, you agree to these Terms.</p>
+                <h4>2. Service Description</h4>
+                <p>This service provides AI-powered image transformation. Provided "as-is" without warranties.</p>
+                <h4>3. Acceptable Use</h4>
+                <p>You agree NOT to upload:</p>
+                <ul>
+                    <li>Illegal or unlawful content</li>
+                    <li>Explicit, pornographic, or obscene material</li>
+                    <li>Content depicting violence or harm</li>
+                    <li>Images you do not have rights to use</li>
+                </ul>
+                <h4>4. Intellectual Property</h4>
+                <p>You retain full ownership of your original images. Generated effects are royalty-free for personal and commercial use.</p>
+                <h4>5. Limitation of Liability</h4>
+                <p>We are not liable for any damages arising from the use of this service.</p>
+                <h4>6. Modifications</h4>
+                <p>We may update these terms at any time. Continued use constitutes acceptance.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
