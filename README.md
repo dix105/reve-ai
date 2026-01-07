@@ -9,3 +9,4 @@ Simply open `index.html` in your browser.
 - **HTML5**: Semantic structure
 - **CSS3**: Modern variables, flexbox, grid
 - **JavaScript**: ES6+ modules
+asdas
